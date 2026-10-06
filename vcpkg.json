@@ -1,0 +1,10 @@
+{
+  "name": "ghufran-laptop",
+  "version-string": "1.0.0",
+  "dependencies": [
+    "crow",
+    "libmariadb",
+    "openssl",
+    "nlohmann-json"
+  ]
+}

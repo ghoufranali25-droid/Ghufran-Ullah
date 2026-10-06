@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d111a">
+  <meta name="description" content="Shop thoughtfully selected laptops for work, play, study, and everything in between at Ghufran LapTop.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ghufran LapTop | Power Your World">
+  <meta property="og:description" content="Discover carefully selected laptops for gaming, work, study and creativity.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=80">
+  <title>Ghufran LapTop | Find your next machine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Store","name":"Ghufran LapTop","description":"An independent laptop and technology retailer helping customers choose computers for work, study, gaming and creativity.","priceRange":"PKR"}</script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="api-client.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="page-loader" id="pageLoader" aria-label="Loading Ghufran LapTop">
+    <span class="brand-mark brand-mark--loader" aria-hidden="true">G<span>.</span></span>
+  </div>
+  <div class="announcement-bar">
+    <p>Complimentary delivery on orders over Rs 300,000 <span aria-hidden="true">·</span> 7-day returns</p>
+    <a href="#deals">Explore this week's offers <span aria-hidden="true">↗</span></a>
+  </div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="Ghufran LapTop home">
+      <span class="brand-mark" aria-hidden="true">G<span>.</span></span>
+      <span class="brand-name">GHUFRAN <strong>LAPTOP</strong><small>POWER YOUR WORLD WITH THE RIGHT LAPTOP</small></span>
+    </a>
+    <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#laptops">Laptops</a>
+      <a href="#categories">Gaming laptops</a>
+      <a href="#categories">Business laptops</a>
+      <a href="#categories">Student laptops</a>
+      <a href="#accessories">Accessories</a>
+      <a href="#deals">Deals <span class="nav-sale">NEW</span></a>
+      <a href="#about">About us</a>
+      <a href="#contact">Contact</a>
+      <button class="nav-account" id="accountOpen" type="button">Login / Register <span aria-hidden="true">↗</span></button>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button theme-toggle" id="themeToggle" type="button" aria-label="Switch color theme" title="Switch color theme"><span aria-hidden="true">◐</span></button>
+      <button class="icon-button wishlist-shortcut" id="wishlistShortcut" type="button" aria-label="View wishlist" title="Wishlist">♡<span class="action-count" id="wishlistCount">0</span></button>
+      <button class="icon-button cart-shortcut" id="cartShortcut" type="button" aria-label="Open shopping cart" title="Shopping cart">Bag<span class="action-count" id="cartCount">0</span></button>
+      <button class="icon-button menu-toggle" id="menuToggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mainNav"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="heroTitle">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> Ghufran LapTop <span class="eyebrow-tag">EST. 2020</span></p>
+        <h1 id="heroTitle">Power Your World<br>With the <em>Right</em> Laptop<span class="hero-period">.</span></h1>
+        <p class="hero-description">Discover powerful laptops for gaming, business, education, creativity and everyday productivity.</p>
+        <div class="hero-actions">
+          <a class="button button--dark" href="#laptops">Shop laptops <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#deals">View deals <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-proof"><div class="proof-avatars" aria-hidden="true"><span>F</span><span>A</span><span>M</span></div><p><strong>4.9/5</strong> from 1,200+ happy customers</p></div>
+      </div>
+      <div class="hero-visual" aria-label="Laptop open on a studio desk">
+        <div class="hero-image-wrap"><img class="hero-image" src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1500&q=85" alt="Open laptop on a clean, sunlit desk" fetchpriority="high"></div>
+        <div class="hero-image-wash"></div>
+        <div class="hero-sticker"><span class="sticker-star" aria-hidden="true">✳</span><span>Find your<br>next machine</span></div>
+        <div class="hero-product-note"><span class="note-dot"></span><span>Curated for the way<br><strong>you work & play.</strong></span></div>
+        <span class="hero-index" aria-hidden="true">01 / 08</span>
+      </div>
+      <div class="hero-bottom"><span>BUILT FOR WHAT'S NEXT</span><span class="hero-bottom-rule"></span><a href="#categories">Scroll to explore <span aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <section class="trust-strip" aria-label="Store benefits">
+      <div><span aria-hidden="true">✳</span><p>Carefully selected tech</p></div><div><span aria-hidden="true">↗</span><p>Nationwide delivery</p></div><div><span aria-hidden="true">◷</span><p>Warranty on every laptop</p></div><div><span aria-hidden="true">♡</span><p>Real people, helpful advice</p></div>
+    </section>
+
+    <section class="section categories-section" id="categories" aria-labelledby="categoriesTitle">
+      <div class="section-heading"><div><p class="eyebrow">SHOP YOUR WAY</p><h2 id="categoriesTitle">Made for <em>your</em> kind of day.</h2></div><a class="text-link" href="#laptops">Browse all laptops <span aria-hidden="true">→</span></a></div>
+      <div class="category-grid" id="categoryGrid">
+        <button class="category-tile category-tile--gaming" data-category="Gaming" type="button"><span class="category-number">01</span><span class="category-icon" aria-hidden="true">⌘</span><span class="category-label">Gaming<span>High frame rates. No compromises.</span></span><span class="category-arrow" aria-hidden="true">↗</span></button>
+        <button class="category-tile category-tile--business" data-category="Business" type="button"><span class="category-number">02</span><span class="category-icon" aria-hidden="true">▤</span><span class="category-label">Business<span>Made for your next big idea.</span></span><span class="category-arrow" aria-hidden="true">↗</span></button>
+        <button class="category-tile category-tile--student" data-category="Student" type="button"><span class="category-number">03</span><span class="category-icon" aria-hidden="true">✎</span><span class="category-label">Student<span>Big potential, easy on budget.</span></span><span class="category-arrow" aria-hidden="true">↗</span></button>
+        <button class="category-tile category-tile--premium" data-category="Premium" type="button"><span class="category-number">04</span><span class="category-icon" aria-hidden="true">✳</span><span class="category-label">Premium<span>Exceptional in every detail.</span></span><span class="category-arrow" aria-hidden="true">↗</span></button>
+      </div>
+      <div class="category-pills" aria-label="More laptop categories"><button data-category="Professional" type="button">Professional</button><button data-category="Budget" type="button">Budget</button><button data-category="2-in-1" type="button">2-in-1</button><button data-category="Refurbished" type="button">Refurbished / used</button></div>
+    </section>
+
+    <section class="deals-section" id="deals" aria-labelledby="dealsTitle">
+      <div class="deals-intro"><p class="eyebrow eyebrow--light">A LITTLE SOMETHING EXTRA</p><h2 id="dealsTitle">Today's best<br><em>deals.</em></h2><p>Good tech, better timing. These offers won't stick around forever.</p><div class="countdown-label">OFFER ENDS IN</div><div class="countdown" id="countdown" aria-label="Time remaining for today's deals"><span><strong id="timerHours">00</strong><small>HRS</small></span><b>:</b><span><strong id="timerMinutes">00</strong><small>MIN</small></span><b>:</b><span><strong id="timerSeconds">00</strong><small>SEC</small></span></div><a class="button button--lime" href="#laptops">Shop all deals <span aria-hidden="true">↗</span></a></div>
+      <div class="deal-feature" id="dealFeature"></div>
+      <div class="deal-side-note"><span class="note-dot note-dot--lime"></span> Limited stock <strong>·</strong> While supplies last</div>
+    </section>
+
+    <section class="section catalog-section" id="laptops" aria-labelledby="laptopsTitle">
+      <div class="section-heading catalog-heading"><div><p class="eyebrow">THE LINEUP</p><h2 id="laptopsTitle">Find your <em>next.</em></h2></div><p class="section-aside">Good machines, honest details.<br>Every listing is independently sourced.</p></div>
+      <div class="catalog-toolbar">
+        <label class="search-field"><span aria-hidden="true">⌕</span><input type="search" id="productSearch" placeholder="Search model, brand, or spec..." aria-label="Search laptops"><kbd>⌘ K</kbd></label>
+        <label class="sort-field"><span>Sort by</span><select id="sortSelect" aria-label="Sort products"><option value="featured">Featured</option><option value="price-asc">Price: low to high</option><option value="price-desc">Price: high to low</option><option value="newest">Newest</option><option value="rating">Best rated</option><option value="discount">Biggest discount</option></select></label>
+      </div>
+      <div class="filter-panel" aria-label="Product filters">
+        <label><span>Brand</span><select id="brandFilter"><option value="">All brands</option></select></label>
+        <label><span>Use</span><select id="usageFilter"><option value="">Any use</option><option>Gaming</option><option>Business</option><option>Student</option><option>Professional</option><option>Budget</option><option>Premium</option><option>2-in-1</option><option>Refurbished</option></select></label>
+        <label><span>Processor</span><select id="processorFilter"><option value="">Any processor</option><option>Intel</option><option>AMD</option><option>Apple</option><option>Snapdragon</option></select></label>
+        <label><span>Graphics</span><select id="gpuFilter"><option value="">Any graphics</option><option value="dedicated">Dedicated GPU</option><option value="integrated">Integrated</option></select></label>
+        <label><span>Memory</span><select id="ramFilter"><option value="">Any RAM</option><option value="8">8 GB+</option><option value="16">16 GB+</option><option value="32">32 GB+</option><option value="64">64 GB+</option></select></label>
+        <label><span>Storage</span><select id="storageFilter"><option value="">Any storage</option><option value="512">512 GB+</option><option value="1000">1 TB+</option><option value="2000">2 TB</option></select></label>
+        <label><span>Screen</span><select id="screenFilter"><option value="">Any size</option><option value="14">Under 14″</option><option value="14-15">14″–15″</option><option value="15">15.6″+</option><option value="16">16″+</option></select></label>
+        <label><span>Operating system</span><select id="osFilter"><option value="">Any OS</option><option>Windows 11</option><option>macOS</option><option>ChromeOS</option><option>Linux</option></select></label>
+        <label><span>Rating</span><select id="ratingFilter"><option value="0">Any rating</option><option value="4">4 stars & up</option><option value="4.5">4.5 stars & up</option><option value="4.8">4.8 stars & up</option></select></label>
+        <label class="price-filter"><span>Max price <strong id="priceValue">Rs 800,000</strong></span><input type="range" id="priceFilter" min="80000" max="800000" step="10000" value="800000" aria-label="Maximum price"></label>
+        <button class="clear-filters" id="clearFilters" type="button">Clear filters <span aria-hidden="true">↺</span></button>
+      </div>
+      <div class="results-line"><p><strong id="resultCount">0</strong> machines to explore</p><span class="catalog-source-status" id="catalogSourceStatus">Local preview</span><div class="active-filter" id="activeFilterLabel"></div><button class="compare-open" id="compareOpen" type="button">Compare <span id="compareCount">0</span></button></div>
+      <div class="product-grid" id="productGrid" aria-live="polite"></div>
+      <div class="empty-state" id="emptyState" hidden><span aria-hidden="true">⌕</span><h3>No machines found.</h3><p>Try adjusting your filters or searching another spec.</p><button class="button button--dark" id="emptyReset" type="button">Clear filters</button></div>
+      <div class="recently-viewed" id="recentlyViewed" hidden><div class="mini-heading"><p class="eyebrow">PICK UP WHERE YOU LEFT OFF</p><h3>Recently viewed</h3></div><div class="recent-list" id="recentList"></div></div>
+    </section>
+
+    <section class="accessories-section" id="accessories" aria-labelledby="accessoriesTitle"><div class="section accessories-inner"><div class="section-heading"><div><p class="eyebrow">THE FINISHING TOUCH</p><h2 id="accessoriesTitle">The little things<br>that make it <em>yours.</em></h2></div><p class="section-aside">Thoughtful add-ons for the setup<br>you'll love coming back to.</p></div><div class="accessory-grid" id="accessoryGrid"></div></div></section>
+
+    <section class="reviews-section" aria-labelledby="reviewsTitle"><div class="section reviews-inner"><div class="reviews-summary"><p class="eyebrow">KIND WORDS, REAL PEOPLE</p><h2 id="reviewsTitle">Good gear.<br><em>Good people.</em></h2><div class="review-score"><strong>4.9</strong><span><span class="stars" aria-label="5 out of 5 stars">★★★★★</span><small>Based on 1,200+ verified purchases</small></span></div><a class="text-link" href="#contact">Tell us about your experience <span aria-hidden="true">→</span></a></div><div class="reviews-grid" id="reviewsGrid"></div></div></section>
+
+    <section class="about-section" id="about" aria-labelledby="aboutTitle"><div class="about-image"><img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=80" alt="A laptop ready for a day of focused work" loading="lazy"></div><div class="about-copy"><p class="eyebrow eyebrow--light">A STORE WITH A POINT OF VIEW</p><h2 id="aboutTitle">Technology should<br>make life feel <em>lighter.</em></h2><p>Ghufran LapTop is a modern laptop and technology store focused on quality computers, thoughtful accessories, helpful service and competitive prices. We bring carefully selected, independently sourced products together so finding your next machine feels a little less like homework.</p><p>We're here for the first-day-of-class setup, the big presentation, the late-night game, and everything in between.</p><a class="button button--lime" href="#contact">Get to know us <span aria-hidden="true">↗</span></a><span class="about-signature">Good tech. Good people. <span>— Ghufran LapTop</span></span></div></section>
+
+    <section class="info-section section" aria-label="Frequently asked questions and store policies"><div class="info-column"><p class="eyebrow">THE USEFUL BITS</p><h2>Good to <em>know.</em></h2><div class="faq-list"><details><summary>Are these official products from the laptop brands?<span aria-hidden="true">+</span></summary><p>No. Ghufran LapTop is an independent retailer. Brand and product names belong to their respective owners; listings do not imply brand affiliation or endorsement.</p></details><details><summary>What warranty comes with my laptop?<span aria-hidden="true">+</span></summary><p>Warranty coverage varies by product and is stated on its detail page. Our team will confirm coverage and the claim process before your order is finalized.</p></details><details><summary>How does delivery work?<span aria-hidden="true">+</span></summary><p>We offer nationwide delivery in Pakistan. Delivery timing is confirmed with you after checkout; orders above Rs 300,000 qualify for complimentary delivery.</p></details><details><summary>Can I return or exchange an order?<span aria-hidden="true">+</span></summary><p>Eligible items may be returned within 7 days in original condition and packaging. Please contact our support team to arrange a return and confirm product-specific terms.</p></details></div></div><div class="policy-column"><p class="eyebrow">SHOP WITH CONFIDENCE</p><div class="policy-list"><div><span aria-hidden="true">◷</span><p><strong>Warranty information</strong><small>Coverage is product-specific and shown with every listing.</small></p></div><div><span aria-hidden="true">↗</span><p><strong>Delivery information</strong><small>Nationwide shipping, with free delivery over Rs 300,000.</small></p></div><div><span aria-hidden="true">↺</span><p><strong>Returns & exchanges</strong><small>7-day return window on eligible items.</small></p></div><div><span aria-hidden="true">⌑</span><p><strong>Privacy & terms</strong><small>We use your details only to support your shopping experience.</small></p></div></div><div class="policy-links"><a href="#contact">Privacy policy</a><a href="#contact">Terms & conditions</a><a href="#contact">Returns policy</a></div></div></section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contactTitle"><div class="section contact-inner"><div class="contact-copy"><p class="eyebrow">WE'RE HERE FOR YOU</p><h2 id="contactTitle">Let's find your<br><em>right fit.</em></h2><p>Not sure what you need? Tell us what your day looks like. We love a good recommendation.</p><div class="contact-details"><a href="tel:+920000000000"><span>PHONE</span>+92 (000) 000 0000</a><a href="mailto:hello@ghufranlaptop.example"><span>EMAIL</span>hello@ghufranlaptop.example</a><div><span>VISIT</span>Shop address, City, Pakistan</div><div><span>HOURS</span>Mon–Sat, 10:00 am–7:00 pm</div></div><div class="social-links"><a href="#contact" aria-label="Instagram">ig</a><a href="#contact" aria-label="Facebook">f</a><a href="#contact" aria-label="TikTok">tk</a><a href="#contact" aria-label="WhatsApp">wa</a></div></div><div class="contact-form-wrap"><form id="contactForm" class="contact-form"><div class="form-heading"><span>01 — SAY HELLO</span><h3>A human will get back to you.</h3></div><label>Your name<input name="name" type="text" autocomplete="name" required minlength="2" placeholder="e.g. Ayesha Khan"></label><label>Email address<input name="email" type="email" autocomplete="email" required placeholder="you@example.com"></label><label>What can we help with?<select name="topic" required><option value="">Choose a topic</option><option>Help me choose a laptop</option><option>Order or delivery question</option><option>Warranty or returns</option><option>Something else</option></select></label><label>Your message<textarea name="message" rows="4" required minlength="10" placeholder="A little detail goes a long way..."></textarea></label><button class="button button--dark" type="submit">Send your note <span aria-hidden="true">↗</span></button></form><div class="map-placeholder"><span class="map-pin" aria-hidden="true">⌖</span><div><strong>Ghufran LapTop</strong><span>Shop address, City, Pakistan</span><small>Map location coming soon</small></div><span class="map-grid" aria-hidden="true"></span></div></div></div></section>
+
+    <section class="newsletter-section"><div class="newsletter-mark" aria-hidden="true">✳</div><div><p class="eyebrow eyebrow--light">GOOD TECH IN YOUR INBOX</p><h2>A few good things.<br><em>Never noise.</em></h2></div><form class="newsletter-form" id="newsletterForm"><label for="newsletterEmail">Email address</label><div><input id="newsletterEmail" name="email" type="email" required placeholder="you@example.com"><button type="submit" aria-label="Subscribe to newsletter">↗</button></div><small>Product picks, useful tips & the occasional good deal. Unsubscribe anytime.</small></form></section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-main"><div class="footer-brand-col"><a class="brand brand--footer" href="#home"><span class="brand-mark" aria-hidden="true">G<span>.</span></span><span class="brand-name">GHUFRAN <strong>LAPTOP</strong><small>POWER YOUR WORLD WITH THE RIGHT LAPTOP</small></span></a><p>Good machines for the life you're building.</p><div class="footer-social"><a href="#contact" aria-label="Instagram">ig</a><a href="#contact" aria-label="Facebook">f</a><a href="#contact" aria-label="TikTok">tk</a></div></div><div class="footer-links"><div><strong>Shop</strong><a href="#laptops">All laptops</a><a href="#categories">Gaming</a><a href="#categories">Business</a><a href="#accessories">Accessories</a><a href="#deals">Deals</a></div><div><strong>Customer service</strong><a href="#contact">Contact us</a><a href="#contact">Delivery information</a><a href="#contact">Returns & exchanges</a><a href="#contact">Warranty</a><a href="#contact">Frequently asked questions</a></div><div><strong>Company</strong><a href="#about">About Ghufran LapTop</a><a href="#contact">Our approach</a><button class="footer-admin-link" id="adminOpen" type="button">Admin dashboard</button></div><div><strong>Policies</strong><a href="#contact">Privacy policy</a><a href="#contact">Terms & conditions</a><a href="#contact">Returns policy</a></div></div></div><div class="footer-bottom"><span>© 2026 Ghufran LapTop. All Rights Reserved.</span><span>Independent retailer · Prices in PKR</span><a href="#top">Back to the top ↑</a></div></footer>
+
+  <div class="toast-region" id="toastRegion" aria-live="polite" aria-atomic="true"></div>
+  <button class="scroll-top" id="scrollTop" type="button" aria-label="Scroll to top">↑</button>
+
+  <div class="overlay" id="cartOverlay" hidden><aside class="drawer" role="dialog" aria-modal="true" aria-labelledby="cartTitle"><div class="drawer-header"><div><p class="eyebrow">YOUR GOOD FINDS</p><h2 id="cartTitle">Your bag <span id="drawerCartCount">(0)</span></h2></div><button class="close-button" data-close="cartOverlay" type="button" aria-label="Close cart">×</button></div><div class="cart-items" id="cartItems"></div><div class="cart-empty" id="cartEmpty"><span aria-hidden="true">↗</span><h3>Nothing in your bag. Yet.</h3><p>There are some good machines waiting for you.</p><button class="text-link" id="continueShopping" type="button">Keep exploring <span aria-hidden="true">→</span></button></div><div class="cart-summary" id="cartSummary"><div><span>Items subtotal</span><strong id="cartSubtotal">Rs 0</strong></div><div><span>You save</span><strong id="cartSavings">Rs 0</strong></div><div><span>Delivery</span><strong id="cartDelivery">Rs 0</strong></div><div class="grand-total"><span>Total</span><strong id="cartTotal">Rs 0</strong></div><button class="button button--dark checkout-open" id="checkoutOpen" type="button">Continue to checkout <span aria-hidden="true">↗</span></button><button class="clear-cart" id="clearCart" type="button">Clear bag</button><p class="secure-note">Secure checkout · No payment is processed in this demo.</p></div></aside></div>
+
+  <div class="overlay modal-overlay" id="productOverlay" hidden><section class="modal product-modal" role="dialog" aria-modal="true" aria-labelledby="productModalTitle"><button class="close-button modal-close" data-close="productOverlay" type="button" aria-label="Close product details">×</button><div id="productModalContent"></div></section></div>
+  <div class="overlay modal-overlay" id="checkoutOverlay" hidden><section class="modal checkout-modal" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle"><button class="close-button modal-close" data-close="checkoutOverlay" type="button" aria-label="Close checkout">×</button><div class="checkout-layout"><div><p class="eyebrow">ALMOST YOURS</p><h2 id="checkoutTitle">Checkout</h2><p class="checkout-intro">A few details so we can get your order to you. This demo does not process payments.</p><form class="checkout-form" id="checkoutForm"><div class="checkout-fields"><label>Full name<input name="name" type="text" autocomplete="name" required minlength="2"></label><label>Phone number<input name="phone" type="tel" autocomplete="tel" required pattern="[+0-9 ()-]{8,18}" placeholder="+92 300 0000000"></label><label class="field-full">Email address<input name="email" type="email" autocomplete="email" required></label><label class="field-full">Street address<input name="address" type="text" autocomplete="street-address" required minlength="5"></label><label>City<input name="city" type="text" autocomplete="address-level2" required></label><label>Province<input name="province" type="text" autocomplete="address-level1" required></label><label>Postal code<input name="postal" type="text" autocomplete="postal-code" required pattern="[A-Za-z0-9 -]{3,10}"></label><label class="field-full">Payment method<select name="payment" required><option value="">Choose a payment method</option><option>Cash on Delivery</option><option>Bank Transfer (details shared after order)</option><option>Other method (confirmation required)</option></select></label></div><button class="button button--dark" type="submit">Place demo order <span aria-hidden="true">↗</span></button><p class="secure-note">No real payments are accepted or processed.</p></form></div><aside class="checkout-order"><p class="eyebrow">YOUR ORDER</p><div id="checkoutItems"></div><div class="checkout-totals"><div><span>Subtotal</span><strong id="checkoutSubtotal"></strong></div><div><span>Savings</span><strong id="checkoutSavings"></strong></div><div><span>Delivery</span><strong id="checkoutDelivery"></strong></div><div class="grand-total"><span>Total</span><strong id="checkoutTotal"></strong></div></div></aside></div></section></div>
+  <div class="overlay modal-overlay" id="compareOverlay" hidden><section class="modal compare-modal" role="dialog" aria-modal="true" aria-labelledby="compareTitle"><button class="close-button modal-close" data-close="compareOverlay" type="button" aria-label="Close comparison">×</button><p class="eyebrow">SIDE BY SIDE</p><h2 id="compareTitle">Compare machines</h2><div class="compare-content" id="compareContent"></div></section></div>
+  <div class="overlay modal-overlay" id="adminOverlay" hidden><section class="modal admin-modal" role="dialog" aria-modal="true" aria-labelledby="adminTitle"><button class="close-button modal-close" data-close="adminOverlay" type="button" aria-label="Close admin demo">×</button><div id="adminContent"></div></section></div>
+  <div class="overlay modal-overlay" id="accountOverlay" hidden><section class="modal account-modal" role="dialog" aria-modal="true" aria-labelledby="accountTitle"><button class="close-button modal-close" data-close="accountOverlay" type="button" aria-label="Close account preview">×</button><div id="accountContent"></div></section></div>
+</body>
+</html>
